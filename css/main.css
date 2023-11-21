@@ -12,6 +12,7 @@ body{
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.4;
+    background-color: #efefef;
 }
 
 main {
@@ -37,6 +38,10 @@ main {
 
 }
 
+h1 {
+    text-align: center;
+}
+
 div#container {
     max-width: 900px;
 }
@@ -46,23 +51,22 @@ div#container {
     margin: 0 auto;
 }
 
+#container article.article{
+    background-color: red;
+}
 
 div#container .article{
-    background-color: aqua;
+    background-color: rgb(225, 255, 0);
 }
-
-#container article.article{
-    background-color: rgb(240, 255, 73);
-}
-
 
 
 article {
-    padding: 16px;
+    padding: 0 0 16px;
+    overflow: hidden;
     border-radius: 8px;
-    background-color: #efefef;
+    background-color: #fff;
     text-align: center;
-    box-shadow: 2px 4px 20px -4px rgba(0,0,0,0.5);
+    box-shadow: 2px 4px 20px -4px rgba(0,0,0,0.15);
 
 }
 
